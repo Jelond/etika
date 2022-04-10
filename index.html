@@ -954,64 +954,64 @@ display: inline-block;
 </div>
 
 <div class="container">
-<h1>53. чолові́к </h1>
+<h1 title="Zdroj: prezentace">53. Thomas Hobbes řekl, že lidé jsou si relativně rovní (schopnostmi k ...) </h1>
 <hr/>
 <input class="display" id="text53" placeholder="answer">
 <br/>
 <button onclick="fn53()" id = "btn53">Klikni</button>
 <button id="cudlik53" style="display:none" onclick="next(53)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='muž'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='dosažení cíle'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>54. Раху́нок, будь ла́ска!</h1>
+<h1 title="Zdroj: prezentace">54. Dle Hobbese člověka celkově motivuje 1.) touha po věcech - po ..., 2.) naděje, že pílí lze dosáhnout věcí, ... , 3.) strach ze smrti. </h1>
 <hr/>
 <input class="display" id="text54" placeholder="answer">
 <br/>
 <button onclick="fn54()" id = "btn54">Klikni</button>
 <button id="cudlik54" style="display:none" onclick="next(54)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Účet, prosím!'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='pohodlném životě; které chce'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>55. пра́вильно</h1>
+<h1>55. Dle Kanta se ... člověk musí nutně podřídit pravidlům, která mu diktuje vlastní rozum, např. v podobě kategorického imperativu nebo uznání obecně prospěšné a nezbytné autority panovníka. </h1>
 <hr/>
 <input class="display" id="text55" placeholder="answer">
 <br/>
 <button onclick="fn55()" id = "btn55">Klikni</button>
 <button id="cudlik55" style="display:none" onclick="next(55)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='správně'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='svobodný a odpovědný'">Tajenka</p>
 </div>
 
 
 <div class="container">
-<h1>56. пи́во </h1>
+<h1>56. Thomas Hobbes, John Locke a David Hume jsou představiteli... </h1>
 <hr/>
 <input class="display" id="text56" placeholder="answer">
 <br/>
 <button onclick="fn56()" id = "btn56">Klikni</button>
 <button id="cudlik56" style="display:none" onclick="next(56)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='pivo'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='politické filosofie'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>57. Скі́льки це ко́штує? </h1>
+<h1>57. Česky "Two Treatises of Government" (Lockeovo dílo) </h1>
 <hr/>
 <input class="display" id="text57" placeholder="answer">
 <br/>
 <button onclick="fn57()" id = "btn57">Klikni</button>
 <button id="cudlik57" style="display:none" onclick="next(57)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Kolik to stojí?'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='Dvě pojednání o vládě'">Tajenka</p>
 </div>
 
 <div class="container">
-<h1>58. Скі́льки це ко́штує на добу́? </h1>
+<h1>58. John Locke povídal, že má smysl vzdát se ..., pro ... .  </h1>
 <hr/>
 <input class="display" id="text58" placeholder="answer">
 <br/>
 <button onclick="fn58()" id = "btn58">Klikni</button>
 <button id="cudlik58" style="display:none" onclick="next(58)">Další</button>
-<p class="tajenka" onclick="this.innerHTML='Kolik to stojí na den?'">Tajenka</p>
+<p class="tajenka" onclick="this.innerHTML='určitých věcí; lepší společnost'">Tajenka</p>
 </div>
 
 <div class="container">
@@ -1876,7 +1876,7 @@ document.getElementById('zvuk52').play(); return false;
 
 function fn53()
 {
-if (document.getElementById("text53").value == "muž") {
+if (document.getElementById("text53").value == "dosažení cíle") {
 document.getElementById('cudlik53').style.display = "inline";
 document.getElementById('zvuk53').play(); return false;
 }
@@ -1884,7 +1884,7 @@ document.getElementById('zvuk53').play(); return false;
 
 function fn54()
 {
-if (document.getElementById("text54").value == "Účet, prosím!") {
+if (document.getElementById("text54").value == "pohodlném životě; které chce") {
 document.getElementById('cudlik54').style.display = "inline";
 document.getElementById('zvuk54').play(); return false;
 }
@@ -1893,7 +1893,7 @@ document.getElementById('zvuk54').play(); return false;
 
 function fn55()
 {
-if (document.getElementById("text55").value == "správně") {
+if (document.getElementById("text55").value == "svobodný a odpovědný") {
 document.getElementById('cudlik55').style.display = "inline";
 document.getElementById('zvuk55').play(); return false;
 }
@@ -1901,7 +1901,7 @@ document.getElementById('zvuk55').play(); return false;
 
 function fn56()
 {
-if (document.getElementById("text56").value == "pivo") {
+if (document.getElementById("text56").value == "politické filosofie") {
 document.getElementById('cudlik56').style.display = "inline";
 document.getElementById('zvuk56').play(); return false;
 }
@@ -1909,7 +1909,7 @@ document.getElementById('zvuk56').play(); return false;
 
 function fn57()
 {
-if (document.getElementById("text57").value == "Kolik to stojí?") {
+if (document.getElementById("text57").value == "Dvě pojednání o vládě") {
 document.getElementById('cudlik57').style.display = "inline";
 document.getElementById('zvuk57').play(); return false;
 }
@@ -1918,7 +1918,7 @@ document.getElementById('zvuk57').play(); return false;
 
 function fn58()
 {
-if (document.getElementById("text58").value == "Kolik to stojí na den?") {
+if (document.getElementById("text58").value == "určitých věcí; lepší společnost") {
 document.getElementById('cudlik58').style.display = "inline";
 document.getElementById('zvuk58').play(); return false;
 }
